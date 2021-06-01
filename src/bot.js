@@ -73,12 +73,6 @@ client.on('message', (message) => {
               
     }
 
-//    else if (message.content === 'avatar') {
-//         // Send the user's avatar URL
-
-//         const attachment = new MessageAttachment('https://i.pinimg.com/originals/1a/92/ea/1a92ea54c4247fd1aafa6243cf86dcef.png');
-//         message.reply(attachment);
-//       }
 });
 
 client.login(process.env.discord_bot_token);
